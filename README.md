@@ -32,7 +32,7 @@ smartfarm can detect disease in rice through leaf analysis. the data will be ana
 In our project is divided into four branches.
 
 1. [main](https://github.com/Bangkit-capstone-product/SmartFarm/tree/main)
-3. [android-development](https://github.com/Bangkit-capstone-product/SmartFarm/tree/Android_Development)
+3. [Mobile-development](https://github.com/Bangkit-capstone-product/SmartFarm/tree/Mobile_Development)
 5. [cloud-computing](https://github.com/Bangkit-capstone-product/SmartFarm/tree/Cloud_Computing)
 6. [machine-learning](https://github.com/Bangkit-capstone-product/SmartFarm/tree/Machine_Learning)
 
