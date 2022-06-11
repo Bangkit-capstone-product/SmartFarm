@@ -1,3 +1,12 @@
+<br />
+<p align="center">
+  <a href="#">
+    <img src="Logo/logodefault.png">
+  </a>
+</p>
+<br>
+
+
 # SmartFarm
 
 SmartFarm : SmartFarm GitHub Repositories of Bangkit Academy 2022 Capstone Project from 3 learning path. Machine Learning, Mobile development, Cloud Computing from team C22-PX442.
