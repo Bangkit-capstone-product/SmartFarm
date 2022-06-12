@@ -14,7 +14,7 @@ In developing this SmartFarm, we use [Tensorflow Library](https://www.tensorflow
 
 
 ## Model.h5
-[Model.h5]()
+[Model.h5](https://drive.google.com/file/d/1YNuKCIFcyz2vtNntzn7XcS1mGu9sXBpk/view?usp=sharing)
 
 ## Model.tflite
 [Model.tflite]()
