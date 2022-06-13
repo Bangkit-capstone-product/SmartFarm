@@ -25,32 +25,32 @@ In developing this SmartFarm, we use [Tensorflow Library](https://www.tensorflow
      ```
      This command will split our data into separated folders
     
-  4. Initiate the files for Train, Val, and Test Dataset.
+  3. Initiate the files for Train, Val, and Test Dataset.
      
      <img src="Documentation/dir.png"> 
-  3. Create the training and validation batch, The batch size determines how many training examples are processed in parallel for training/inference. The batch size at training time can affect how fast and how well your training converges.
+  4. Create the data augmentation & training and validation batch, The batch size determines how many training examples are processed in parallel for training/inference. The batch size at training time can affect how fast and how well your training converges. We augment the data with following conditions:
      
      <img src="Documentation/batch.png">  
-  4. Create the label, Labels created according to the images class to be classified
+  5. Create the label, Labels created according to the images class to be classified
      
      <img src="Documentation/label.png"> 
-  5. Define the pre-trained model or tansfer learning, in this case we use [ResNet50](https://hard.io/api/applications/resnet/#resnet50-function) and put additinal layer
+  6. Define the pre-trained model or tansfer learning, in this case we use [ResNet50](https://hard.io/api/applications/resnet/#resnet50-function) and put additinal layer
      
      <img src="Documentation/tl.png">
      <img src="Documentation/layer add.png"> 
-  6. Define Model Compile. The compilation is the final step in creating a model. Once the compilation is done, we can move on to training phase. 
+  7. Define Model Compile. The compilation is the final step in creating a model. Once the compilation is done, we can move on to training phase. 
      
      <img src="Documentation/compile.png"> 
-  7. Train and evaluate the model   to check whether the model is best fit for the given problem and corresponding data
+  8. Train and evaluate the model   to check whether the model is best fit for the given problem and corresponding data
      <img src="Documentation/train.png">
      <img src="Documentation/evaluate.png"> 
      
      And here our evaluate result
      
      <img src="Documentation/result.png"> 
-  12. Save the model into h5 extension an json estension, Use the converter to convert the keras model into the .h5 model
+  9. Save the model into h5 extension an json estension, Use the converter to convert the keras model into the .h5 model
       <img src="Documentation/h5.png"> 
-  14. Deploy the model to android using tflite
+  10. Convert the model to tflite format
       <img src="Documentation/tflite.png"> 
 
 ## Model.h5
