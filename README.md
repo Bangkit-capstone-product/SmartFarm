@@ -42,6 +42,7 @@ In developing this SmartFarm, we use [Tensorflow Library](https://www.tensorflow
      
      <img src="Documentation/compile.png"> 
   8. Train and evaluate the model   to check whether the model is best fit for the given problem and corresponding data
+  
      <img src="Documentation/train.png">
      <img src="Documentation/evaluate.png"> 
      
@@ -49,8 +50,10 @@ In developing this SmartFarm, we use [Tensorflow Library](https://www.tensorflow
      
      <img src="Documentation/result.png"> 
   9. Save the model into h5 extension an json estension, Use the converter to convert the keras model into the .h5 model
+  
       <img src="Documentation/h5.png"> 
   10. Convert the model to tflite format
+
       <img src="Documentation/tflite.png"> 
 
 ## Model.h5
