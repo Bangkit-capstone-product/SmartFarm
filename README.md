@@ -8,8 +8,24 @@ In developing this SmartFarm, we use [Tensorflow Library](https://www.tensorflow
      
      <img src="Documentation/Dataset.png"> 
      
-     and then put to your Google Drive or Local Directory
-  2. Create Foleder for Train, Val, and Test Dataset.
+     and unzip the data using
+     '''
+     !p7zip -d 'Rice Leaf Disease Images.7z
+     '''
+     
+  2. Split the Dataset
+     We used split-folder to split the data into train, validation and test dataset. First, We installed split-folders on our notebook using
+     '''
+     ! pip install split-folders
+     '''
+     Then, we split the dataset with this proportion : Training 90%, Validation 5%, Test 5%
+     '''
+     import splitfolders
+     splitfolders.ratio('Rice Leaf Disease Images', output="splitted", seed=1337, ratio=(0.9, 0.05, 0.05))
+     '''
+     This command will split our data into separated folders
+    
+  4. Initiate the files for Train, Val, and Test Dataset.
      
      <img src="Documentation/dir.png"> 
   3. Create the training and validation batch, The batch size determines how many training examples are processed in parallel for training/inference. The batch size at training time can affect how fast and how well your training converges.
