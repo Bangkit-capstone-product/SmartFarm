@@ -51,12 +51,13 @@ In our project is divided into four branches.
 - - How to get analysis results from rice leaf images
 
   1.  Login to your accounts
-  2.  
+  2.  Take a picture of your rice leaf or upload image from your devce
+  3.  Click "Analyze" and see the recomendation pesticide usages
 
 
 # Product
 
-1. [SmartFarm apps]
+1. [SmartFarm apps]()
 
    <br>
 
